@@ -53,7 +53,7 @@ int main(int agrc, char *argv[])
 	printf("Frank is at memory location %p:\n", frank);
 	Person_print(frank);
 
-	(*joe).age += 20;
+	joe.age += 20;
 	joe -> height -= 2;
 	joe -> weight += 40;
 	Person_print(joe);
